@@ -1,3 +1,4 @@
+/* Side bar styling */
 .sidebar {
     position: fixed;
     top: 0;
@@ -19,4 +20,64 @@
 
 .sidebar a:hover {
     background-color: #555;
+}
+
+
+
+/* Tabs Styling */
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-top: 30px;
+}
+
+.tab {
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Sub-Tabs Styling */
+.sub-tabs {
+    display: flex;
+    border-bottom: 1px dashed #ddd;
+    margin-top: 10px;
+}
+
+.sub-tab {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sub-tab:hover {
+    background-color: #e6e6e6;
+}
+
+.sub-tab-content {
+    display: none;
+    margin-top: 15px;
+}
+
+.sub-tab-content.active {
+    display: block;
 }
