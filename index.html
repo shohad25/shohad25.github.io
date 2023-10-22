@@ -1,179 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Title of your website -->
     <title>AI Engineering - Mobileye</title>
-    
-    <!-- Font Awesome stylesheet for icons & Google Fonts for typography -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-    <style>
-        /* Resetting some default browser styles */
-        body, h1, h2, p, a {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-            text-decoration: none;
-        }
-
-        body {
-            background-color: #fafafa;
-            color: #333;
-            font-size: 16px;
-        }
-
-        /* Header Styling */
-        header {
-            background-color: #2C3E50;
-            color: white;
-            text-align: center;
-            padding: 40px 0;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Container styling for central content */
-        .container {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 0 20px;
-        }
-
-        .content {
-            padding: 40px;
-            background-color: white;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-
-        /* Headings and paragraphs */
-        h1, h2 {
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
-
-        p {
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-
-        /* Button styling */
-        .btn {
-            display: inline-block;
-            background-color: #2C3E50;
-            color: white;
-            padding: 15px 30px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #1A242F;
-        }
-
-        /* Sidebar styling */
-        .sidebar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 70px;
-            background-color: #2C3E50;
-            padding-top: 40px;
-            box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .sidebar a {
-            display: block;
-            text-align: center;
-            margin-bottom: 30px;
-            color: white;
-            font-size: 24px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .sidebar a:hover {
-            background-color: #1A242F;
-            transform: scale(1.1);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- Tabs Menu -->
-    <div class="tabs">
-        <div class="tab" data-tab="1">Tab 1</div>
-        <div class="tab" data-tab="2">Tab 2</div>
-        <div class="tab" data-tab="3">Tab 3</div>
-    </div>
-    
-    <!-- Tab Contents -->
-    <div class="tab-content" data-content="1">
-        Content for Tab 1...
-    </div>
-    
-    <div class="tab-content" data-content="2">
-        Content for Tab 2...
-    </div>
-    
-    <div class="tab-content" data-content="3">
-        <!-- Sub Tabs for Tab 3 -->
-        <div class="sub-tabs">
-            <div class="sub-tab" data-sub-tab="1">Sub Tab 1</div>
-            <div class="sub-tab" data-sub-tab="2">Sub Tab 2</div>
-            <div class="sub-tab" data-sub-tab="3">Sub Tab 3</div>
-        </div>
-        
-        <!-- Sub-Tab Contents -->
-        <div class="sub-tab-content" data-sub-content="1">
-            Content for Sub Tab 1...
-        </div>
-        <div class="sub-tab-content" data-sub-content="2">
-            Content for Sub Tab 2...
-        </div>
-        <div class="sub-tab-content" data-sub-content="3">
-            Content for Sub Tab 3...
-        </div>
-    </div>
-
-
-
-    
     <!-- Sidebar with icon links -->
     <div class="sidebar">
-        <!-- Icon linking to the first URL -->
-        <a href="https://deep.mobileye.com/" title="DEEP"><i class="fas fa-link"></i></a>
-        <!-- Icon linking to the second URL -->
-        <a href="https://ml.angie.mobileye.com/" title="MLHub"><i class="fas fa-code"></i></a>
-        <!-- Continue adding icons and URLs as needed -->
-    </div>
 
+        <a href="https://deep.mobileye.com" title="DEEP">
+            <i class="fas fa-link"></i>
+            <span class="link-text">DEEP</span>
+        </a>
+        <a href="https://ml.angie.mobileye.com/" title="MLHub">
+            <i class="fas fa-code"></i>
+            <span class="link-text">MLHub</span>
+        </a>
+
+    </div>
     <!-- Header section -->
     <header>
         <h1>AI Engineering Group</h1>
         <p>Accelerate AI Life-cycle</p>
     </header>
-
     <!-- Main content section -->
     <div class="container">
         <div class="content">
             <!-- About section -->
             <h2>About Us</h2>
-            <p>... Your about us text ...</p>
-
+            <p>Your about us text...</p>
             <!-- Mission section -->
             <h2>Our Mission</h2>
-            <p>... Your mission text ...</p>
-
-            <!-- Example button -->
+            <p>Your mission text...</p>
+            <!-- Tabs Menu -->
+            <div class="tabs">
+                <div class="tab" data-tab="1">Platforms</div>
+                <div class="tab" data-tab="2">Communication</div>
+                <div class="tab" data-tab="3">Docs</div>
+            </div>
+            <!-- Tab Contents -->
+            <div class="tab-content" data-content="1">Add links to platforms</div>
+            <div class="tab-content" data-content="2">Specify all teams channel</div>
+            <div class="tab-content" data-content="3">
+                <div class="sub-tabs">
+                    <div class="sub-tab" data-sub-tab="1">Menta</div>
+                    <div class="sub-tab" data-sub-tab="2">DEEP</div>
+                    <div class="sub-tab" data-sub-tab="3">MexSense</div>
+                </div>
+                <div class="sub-tab-content" data-sub-content="1">Content for Sub Tab 1...</div>
+                <div class="sub-tab-content" data-sub-content="2">Content for Sub Tab 2...</div>
+                <div class="sub-tab-content" data-sub-content="3">Content for Sub Tab 3...</div>
+            </div>
             <a href="#" class="btn">Learn More</a>
         </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
-
 </html>
