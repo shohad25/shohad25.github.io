@@ -2,12 +2,18 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMt23cez/5paNdF+TmFE5o2r5y6RSb6Z2gD3wZ+X" crossorigin="anonymous">
-    
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of your website -->
     <title>AI Engineering - Mobileye</title>
+    
+    <!-- Font Awesome stylesheet for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -15,6 +21,7 @@
             background-color: #f4f4f4;
         }
 
+        /* Header Styling */
         header {
             background-color: #333;
             color: white;
@@ -22,6 +29,7 @@
             padding: 10px 0;
         }
 
+        /* Container styling for central content */
         .container {
             width: 80%;
             margin: auto;
@@ -34,6 +42,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
+        /* Headings and paragraphs */
         h1, h2 {
             text-align: center;
         }
@@ -43,6 +52,7 @@
             margin: 20px 0;
         }
 
+        /* Button styling */
         .btn {
             display: block;
             width: 200px;
@@ -60,35 +70,64 @@
         .btn:hover {
             background-color: #333;
         }
+
+        /* Sidebar styling */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 60px;
+            background-color: #333;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            background-color: #555;
+        }
     </style>
 </head>
 
 <body>
+    <!-- Sidebar with icon links -->
+    <div class="sidebar">
+        <!-- Icon linking to the first URL -->
+        <a href="https://example1.com" title="Link 1"><i class="fas fa-link"></i></a>
+        <!-- Icon linking to the second URL -->
+        <a href="https://example2.com" title="Link 2"><i class="fas fa-code"></i></a>
+        <!-- Continue adding icons and URLs as needed -->
+    </div>
+
+    <!-- Header section -->
     <header>
         <h1>AI Engineering Group</h1>
         <p>Mobileye's Catalyst for AI Progress</p>
     </header>
+
+    <!-- Main content section -->
     <div class="container">
         <div class="content">
+            <!-- About section -->
             <h2>About Us</h2>
-            <p>The AI Engineering group at Mobileye is committed to advancing the future of artificial intelligence. Our primary focus is to develop platforms and solutions that accelerate the AI life-cycle within the Algo department.</p>
+            <p>... Your about us text ...</p>
 
+            <!-- Mission section -->
             <h2>Our Mission</h2>
-            <p>We believe that the power of AI can transform industries and improve lives. Our mission is to ensure that Mobileye's Algo department can leverage the best tools and platforms to remain at the forefront of this transformation.</p>
+            <p>... Your mission text ...</p>
 
+            <!-- Example button -->
             <a href="#" class="btn">Learn More</a>
         </div>
     </div>
-
-    <div class="sidebar">
-    <a href="https://example1.com" title="Link 1"><i class="fas fa-link"></i></a>
-    <a href="https://example2.com" title="Link 2"><i class="fas fa-code"></i></a>
-    <a href="https://example3.com" title="Link 3"><i class="fas fa-project-diagram"></i></a>
-    <a href="https://example4.com" title="Link 4"><i class="fas fa-laptop-code"></i></a>
-    <!-- You can add more icons and links as needed -->
-    </div>
-
-    
 </body>
 
 </html>
